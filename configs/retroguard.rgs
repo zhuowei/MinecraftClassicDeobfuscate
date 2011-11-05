@@ -1,0 +1,167 @@
+# This would be a null.rgs
+
+.class ** protected
+.method;private ** *
+.field;private ** *
+.attribute SourceFile
+.attribute LocalVariableTable
+.attribute LineNumberTable
+.attribute Deprecated
+.attribute Signature
+.attribute LocalVariableTypeTable
+.attribute EnclosingMethod
+.option Annotations 
+
+# Block
+!field com/mojang/minecraft/level/tile/Block/ac *
+!field com/mojang/minecraft/level/tile/Block/ad *
+
+!field com/mojang/minecraft/level/tile/Block/b *
+
+.field_map com/mojang/minecraft/level/tile/Block/ac id
+.field_map com/mojang/minecraft/level/tile/Block/ad stepSound
+
+.field_map com/mojang/minecraft/level/tile/Block/b byId
+
+!method com/mojang/minecraft/level/tile/*Block/g ()I
+.method_map com/mojang/minecraft/level/tile/*Block/g ()I idDropped
+
+# Block data
+
+!field com/mojang/minecraft/level/tile/Block/e *
+!field com/mojang/minecraft/level/tile/Block/f *
+!field com/mojang/minecraft/level/tile/Block/g *
+!field com/mojang/minecraft/level/tile/Block/h *
+!field com/mojang/minecraft/level/tile/Block/i *
+!field com/mojang/minecraft/level/tile/Block/j *
+!field com/mojang/minecraft/level/tile/Block/k *
+!field com/mojang/minecraft/level/tile/Block/l *
+!field com/mojang/minecraft/level/tile/Block/m *
+!field com/mojang/minecraft/level/tile/Block/n *
+!field com/mojang/minecraft/level/tile/Block/o *
+!field com/mojang/minecraft/level/tile/Block/p *
+!field com/mojang/minecraft/level/tile/Block/q *
+!field com/mojang/minecraft/level/tile/Block/r *
+!field com/mojang/minecraft/level/tile/Block/s *
+!field com/mojang/minecraft/level/tile/Block/t *
+!field com/mojang/minecraft/level/tile/Block/u *
+!field com/mojang/minecraft/level/tile/Block/v *
+!field com/mojang/minecraft/level/tile/Block/w *
+!field com/mojang/minecraft/level/tile/Block/x *
+!field com/mojang/minecraft/level/tile/Block/y *
+!field com/mojang/minecraft/level/tile/Block/z *
+!field com/mojang/minecraft/level/tile/Block/A *
+!field com/mojang/minecraft/level/tile/Block/B *
+!field com/mojang/minecraft/level/tile/Block/C *
+!field com/mojang/minecraft/level/tile/Block/D *
+!field com/mojang/minecraft/level/tile/Block/E *
+!field com/mojang/minecraft/level/tile/Block/F *
+!field com/mojang/minecraft/level/tile/Block/G *
+!field com/mojang/minecraft/level/tile/Block/H *
+!field com/mojang/minecraft/level/tile/Block/I *
+!field com/mojang/minecraft/level/tile/Block/J *
+!field com/mojang/minecraft/level/tile/Block/K *
+!field com/mojang/minecraft/level/tile/Block/L *
+!field com/mojang/minecraft/level/tile/Block/M *
+!field com/mojang/minecraft/level/tile/Block/N *
+!field com/mojang/minecraft/level/tile/Block/O *
+!field com/mojang/minecraft/level/tile/Block/P *
+!field com/mojang/minecraft/level/tile/Block/Q *
+!field com/mojang/minecraft/level/tile/Block/R *
+!field com/mojang/minecraft/level/tile/Block/S *
+!field com/mojang/minecraft/level/tile/Block/T *
+!field com/mojang/minecraft/level/tile/Block/U *
+!field com/mojang/minecraft/level/tile/Block/V *
+!field com/mojang/minecraft/level/tile/Block/W *
+!field com/mojang/minecraft/level/tile/Block/X *
+!field com/mojang/minecraft/level/tile/Block/Y *
+!field com/mojang/minecraft/level/tile/Block/Z *
+!field com/mojang/minecraft/level/tile/Block/aa *
+
+.field_map com/mojang/minecraft/level/tile/Block/e STONE
+.field_map com/mojang/minecraft/level/tile/Block/f GRASS
+.field_map com/mojang/minecraft/level/tile/Block/g DIRT
+.field_map com/mojang/minecraft/level/tile/Block/h COBBLESTONE
+.field_map com/mojang/minecraft/level/tile/Block/i WOOD
+.field_map com/mojang/minecraft/level/tile/Block/j SAPLING
+.field_map com/mojang/minecraft/level/tile/Block/k BEDROCK
+.field_map com/mojang/minecraft/level/tile/Block/l WATER
+.field_map com/mojang/minecraft/level/tile/Block/m STATIONARY_WATER
+.field_map com/mojang/minecraft/level/tile/Block/n LAVA
+.field_map com/mojang/minecraft/level/tile/Block/o STATIONARY_LAVA
+.field_map com/mojang/minecraft/level/tile/Block/p SAND
+.field_map com/mojang/minecraft/level/tile/Block/q GRAVEL
+.field_map com/mojang/minecraft/level/tile/Block/r GOLD_ORE
+.field_map com/mojang/minecraft/level/tile/Block/s IRON_ORE
+.field_map com/mojang/minecraft/level/tile/Block/t COAL_ORE
+.field_map com/mojang/minecraft/level/tile/Block/u LOG
+.field_map com/mojang/minecraft/level/tile/Block/v LEAVES
+.field_map com/mojang/minecraft/level/tile/Block/w SPONGE
+.field_map com/mojang/minecraft/level/tile/Block/x GLASS
+.field_map com/mojang/minecraft/level/tile/Block/y CLOTH_RED
+.field_map com/mojang/minecraft/level/tile/Block/z CLOTH_ORANGE
+.field_map com/mojang/minecraft/level/tile/Block/A CLOTH_YELLOW
+.field_map com/mojang/minecraft/level/tile/Block/B CLOTH_LIME
+.field_map com/mojang/minecraft/level/tile/Block/C CLOTH_GREEN
+.field_map com/mojang/minecraft/level/tile/Block/D CLOTH_AQUAGREEN
+.field_map com/mojang/minecraft/level/tile/Block/E CLOTH_CYAN
+.field_map com/mojang/minecraft/level/tile/Block/F CLOTH_BLUE
+.field_map com/mojang/minecraft/level/tile/Block/G CLOTH_PURPLE
+.field_map com/mojang/minecraft/level/tile/Block/H CLOTH_INDIGO
+.field_map com/mojang/minecraft/level/tile/Block/I CLOTH_VIOLET
+.field_map com/mojang/minecraft/level/tile/Block/J CLOTH_MAGENTA
+.field_map com/mojang/minecraft/level/tile/Block/K CLOTH_PINK
+.field_map com/mojang/minecraft/level/tile/Block/L CLOTH_BLACK
+.field_map com/mojang/minecraft/level/tile/Block/M CLOTH_GRAY
+.field_map com/mojang/minecraft/level/tile/Block/N GLOTH_WHITE
+.field_map com/mojang/minecraft/level/tile/Block/O YELLOW_FLOWER
+.field_map com/mojang/minecraft/level/tile/Block/P RED_ROSE
+.field_map com/mojang/minecraft/level/tile/Block/Q BROWN_MUSHROOM
+.field_map com/mojang/minecraft/level/tile/Block/R RED_MUSHROOM
+.field_map com/mojang/minecraft/level/tile/Block/S GOLD_BLOCK
+.field_map com/mojang/minecraft/level/tile/Block/T IRON_BLOCK
+.field_map com/mojang/minecraft/level/tile/Block/U DOUBLE_STEP
+.field_map com/mojang/minecraft/level/tile/Block/V STEP
+.field_map com/mojang/minecraft/level/tile/Block/W BRICK
+.field_map com/mojang/minecraft/level/tile/Block/X TNT
+.field_map com/mojang/minecraft/level/tile/Block/Y BOOKSHELF
+.field_map com/mojang/minecraft/level/tile/Block/Z MOSSY_COBBLESTONE
+.field_map com/mojang/minecraft/level/tile/Block/aa OBSIDIAN
+
+
+# Minecraft.class
+
+!field com/mojang/minecraft/Minecraft/A *
+.field_map com/mojang/minecraft/Minecraft/A objectMouseOver
+!field com/mojang/minecraft/Minecraft/C *
+.field_map com/mojang/minecraft/Minecraft/C serverName
+!field com/mojang/minecraft/Minecraft/D *
+.field_map com/mojang/minecraft/Minecraft/D serverPort
+!field com/mojang/minecraft/Minecraft/w *
+.field_map com/mojang/minecraft/Minecraft/w ingameGUI
+!field com/mojang/minecraft/Minecraft/y *
+.field_map com/mojang/minecraft/Minecraft/y networkManager
+!field com/mojang/minecraft/Minecraft/O *
+.field_map com/mojang/minecraft/Minecraft/O mcApplet
+!field com/mojang/minecraft/Minecraft/B *
+.field_map com/mojang/minecraft/Minecraft/B gameSettings
+
+# GameSettings.class
+!field com/mojang/minecraft/GameSettings/a *
+.field_map ccom/mojang/minecraft/GameSettings/a music
+!field com/mojang/minecraft/GameSettings/b *
+.field_map ccom/mojang/minecraft/GameSettings/b sound
+!field com/mojang/minecraft/GameSettings/c *
+.field_map ccom/mojang/minecraft/GameSettings/c invertYMouse
+!field com/mojang/minecraft/GameSettings/d *
+.field_map ccom/mojang/minecraft/GameSettings/d showFrameRate
+!field com/mojang/minecraft/GameSettings/e *
+.field_map ccom/mojang/minecraft/GameSettings/e viewDistance
+!field com/mojang/minecraft/GameSettings/f *
+.field_map ccom/mojang/minecraft/GameSettings/f bobView
+!field com/mojang/minecraft/GameSettings/g *
+.field_map ccom/mojang/minecraft/GameSettings/g anaglyph3d
+!field com/mojang/minecraft/GameSettings/h *
+.field_map ccom/mojang/minecraft/GameSettings/h limitFramerate
+!field com/mojang/minecraft/GameSettings/s *
+.field_map ccom/mojang/minecraft/GameSettings/s KeyBinding

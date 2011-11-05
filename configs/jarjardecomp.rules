@@ -11,6 +11,7 @@ rule com.mojang.minecraft.a.m com.mojang.minecraft.model.SpiderModel
 rule com.mojang.minecraft.a.n com.mojang.minecraft.model.ModelRenderer
 rule com.mojang.minecraft.a.o com.mojang.minecraft.model.AnimalModel
 rule com.mojang.minecraft.a.** com.mojang.minecraft.model.@1
+rule com.mojang.minecraft.b.a com.mojang.minecraft.render.TextureManager
 rule com.mojang.minecraft.b.** com.mojang.minecraft.render.@1
 rule com.mojang.minecraft.c.** com.mojang.minecraft.sound.@1
 rule com.mojang.minecraft.d.a com.mojang.minecraft.gamemode.CreativeGameMode
@@ -62,9 +63,10 @@ rule com.mojang.minecraft.particle.a com.mojang.minecraft.particle.ParticleManag
 rule com.mojang.minecraft.c com.mojang.minecraft.ResourceDownloadThread
 rule com.mojang.minecraft.e com.mojang.minecraft.SleepForeverThread
 rule com.mojang.minecraft.f com.mojang.minecraft.OperatingSystemLookup
+rule com.mojang.minecraft.g com.mojang.minecraft.MovingObjectPosition
 rule com.mojang.minecraft.h com.mojang.minecraft.SkinDownloadThread
-rule com.mojang.minecraft.j com.mojang.minecraft.ConfigOption
-rule com.mojang.minecraft.k com.mojang.minecraft.ConfigurationsManager
+rule com.mojang.minecraft.j com.mojang.minecraft.KeyBinding
+rule com.mojang.minecraft.k com.mojang.minecraft.GameSettings
 rule com.mojang.minecraft.l com.mojang.minecraft.Minecraft
 rule com.mojang.minecraft.net.a com.mojang.minecraft.net.PacketType
 rule com.mojang.minecraft.net.c com.mojang.minecraft.net.NetworkManager
