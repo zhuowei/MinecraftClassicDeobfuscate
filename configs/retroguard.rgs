@@ -23,8 +23,17 @@
 
 .field_map com/mojang/minecraft/level/tile/Block/b byId
 
-!method com/mojang/minecraft/level/tile/*Block/g ()I
-.method_map com/mojang/minecraft/level/tile/*Block/g ()I idDropped
+!field com/mojang/minecraft/level/tile/Block/al *
+.field_map com/mojang/minecraft/level/tile/Block/al opaqueCubeLookup
+
+!field com/mojang/minecraft/level/tile/Block/am *
+.field_map com/mojang/minecraft/level/tile/Block/am renderAsNormalBlockLookup
+
+!field com/mojang/minecraft/level/tile/Block/d *
+.field_map com/mojang/minecraft/level/tile/Block/d isLiquidLookup
+
+#!method com/mojang/minecraft/level/tile/*Block/g ()I
+#.method_map com/mojang/minecraft/level/tile/*Block/g ()I idDropped
 
 # Block data
 
@@ -131,6 +140,14 @@
 
 # Minecraft.class
 
+!field com/mojang/minecraft/Minecraft/a *
+.field_map com/mojang/minecraft/Minecraft/a gameMode
+!field com/mojang/minecraft/Minecraft/d *
+.field_map com/mojang/minecraft/Minecraft/d level
+!field com/mojang/minecraft/Minecraft/f *
+.field_map com/mojang/minecraft/Minecraft/f player
+!field com/mojang/minecraft/Minecraft/v *
+.field_map com/mojang/minecraft/Minecraft/v robot
 !field com/mojang/minecraft/Minecraft/A *
 .field_map com/mojang/minecraft/Minecraft/A objectMouseOver
 !field com/mojang/minecraft/Minecraft/C *
@@ -146,22 +163,28 @@
 !field com/mojang/minecraft/Minecraft/B *
 .field_map com/mojang/minecraft/Minecraft/B gameSettings
 
+!method com/mojang/minecraft/Minecraft/a (Ljava/lang/String;)V
+.method_map com/mojang/minecraft/Minecraft/a (Ljava/lang/String;)V renderDebugTrace
+
 # GameSettings.class
 !field com/mojang/minecraft/GameSettings/a *
-.field_map ccom/mojang/minecraft/GameSettings/a music
+.field_map com/mojang/minecraft/GameSettings/a music
 !field com/mojang/minecraft/GameSettings/b *
-.field_map ccom/mojang/minecraft/GameSettings/b sound
+.field_map com/mojang/minecraft/GameSettings/b sound
 !field com/mojang/minecraft/GameSettings/c *
-.field_map ccom/mojang/minecraft/GameSettings/c invertYMouse
+.field_map com/mojang/minecraft/GameSettings/c invertYMouse
 !field com/mojang/minecraft/GameSettings/d *
-.field_map ccom/mojang/minecraft/GameSettings/d showFrameRate
+.field_map com/mojang/minecraft/GameSettings/d showFrameRate
 !field com/mojang/minecraft/GameSettings/e *
-.field_map ccom/mojang/minecraft/GameSettings/e viewDistance
+.field_map com/mojang/minecraft/GameSettings/e viewDistance
 !field com/mojang/minecraft/GameSettings/f *
-.field_map ccom/mojang/minecraft/GameSettings/f bobView
+.field_map com/mojang/minecraft/GameSettings/f bobView
 !field com/mojang/minecraft/GameSettings/g *
-.field_map ccom/mojang/minecraft/GameSettings/g anaglyph3d
+.field_map com/mojang/minecraft/GameSettings/g anaglyph3d
 !field com/mojang/minecraft/GameSettings/h *
-.field_map ccom/mojang/minecraft/GameSettings/h limitFramerate
+.field_map com/mojang/minecraft/GameSettings/h limitFramerate
 !field com/mojang/minecraft/GameSettings/s *
-.field_map ccom/mojang/minecraft/GameSettings/s KeyBinding
+.field_map com/mojang/minecraft/GameSettings/s keyBinding
+
+!field com/mojang/minecraft/render/d/a *
+.field_map com/mojang/minecraft/render/d/a minecraft

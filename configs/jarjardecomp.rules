@@ -39,8 +39,8 @@ rule com.mojang.minecraft.level.a.a.c com.mojang.minecraft.level.generator.algor
 rule com.mojang.minecraft.level.a.a.** com.mojang.minecraft.level.generator.algorithm.@1
 rule com.mojang.minecraft.level.b com.mojang.minecraft.level.MobSpawner
 rule com.mojang.minecraft.level.b com.mojang.minecraft.level.LevelIO
+rule com.mojang.minecraft.level.b.a com.mojang.minecraft.level.liquid.LiquidType
 rule com.mojang.minecraft.level.tile.a com.mojang.minecraft.level.tile.Block
-rule com.mojang.minecraft.level.tile.Tile$SoundType com.mojang.minecraft.level.tile.Block$SoundType
 rule com.mojang.minecraft.level.tile.c com.mojang.minecraft.level.tile.DirtBlock
 rule com.mojang.minecraft.level.tile.d com.mojang.minecraft.level.tile.MetalBlock
 rule com.mojang.minecraft.level.tile.e com.mojang.minecraft.level.tile.WoodBlock
@@ -60,11 +60,15 @@ rule com.mojang.minecraft.level.tile.r com.mojang.minecraft.level.tile.FlowerBlo
 rule com.mojang.minecraft.level.tile.s com.mojang.minecraft.level.tile.SpongeBlock
 rule com.mojang.minecraft.level.tile.t com.mojang.minecraft.level.tile.MushroomBlock
 rule com.mojang.minecraft.particle.a com.mojang.minecraft.particle.ParticleManager
+rule com.mojang.minecraft.player.a com.mojang.minecraft.player.InputHandler
+rule com.mojang.minecraft.player.b com.mojang.minecraft.player.InputHandlerImpl
+rule com.mojang.minecraft.a com.mojang.minecraft.AvailableBlockType
 rule com.mojang.minecraft.c com.mojang.minecraft.ResourceDownloadThread
 rule com.mojang.minecraft.e com.mojang.minecraft.SleepForeverThread
 rule com.mojang.minecraft.f com.mojang.minecraft.OperatingSystemLookup
 rule com.mojang.minecraft.g com.mojang.minecraft.MovingObjectPosition
 rule com.mojang.minecraft.h com.mojang.minecraft.SkinDownloadThread
+rule com.mojang.minecraft.i com.mojang.minecraft.ProgressBarDisplay
 rule com.mojang.minecraft.j com.mojang.minecraft.KeyBinding
 rule com.mojang.minecraft.k com.mojang.minecraft.GameSettings
 rule com.mojang.minecraft.l com.mojang.minecraft.Minecraft
