@@ -15,11 +15,12 @@ public class ReverseJarRules {
 			}
 			String[] s = line.trim().split(" ");
 			if (s.length != 3) {
-				//System.err.println(s.length);
 				System.err.println("Found line with strange tokens; ignoring it");
 				continue;
 			}
-			System.out.println(s[0] + " " + s[2] + " " + s[1]);
+			String inputClasses = s[2].replace("@1", "**");
+			String outputClasses = s[1].replace("**", "@1");
+			System.out.println(s[0] + " " + inputClasses + " " + outputClasses);
 		}
 	}
 }
