@@ -188,3 +188,11 @@
 
 !field com/mojang/minecraft/render/d/a *
 .field_map com/mojang/minecraft/render/d/a minecraft
+
+# MathHelper
+!method com/mojang/util/MathHelper/a (F)F
+.method_map com/mojang/util/MathHelper/a (F)F sin
+!method com/mojang/util/MathHelper/b (F)F
+.method_map com/mojang/util/MathHelper/b (F)F cos
+!method com/mojang/util/MathHelper/c (F)F
+.method_map com/mojang/util/MathHelper/c (F)F sqrtFloat
